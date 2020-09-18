@@ -1,6 +1,5 @@
 # From https://github.com/stefanprodan/podinfo
-namespace: 
-  devops
+namespace: devops
 namePrefix: dev-
 nameSuffix: "-001"
 resources:
