@@ -1,0 +1,8 @@
+# From https://github.com/stefanprodan/podinfo
+resources:
+    - hpa.yaml
+    - deployment.yaml
+    - service.yaml
+  
+  commonLabels:
+    app: tools-stash
