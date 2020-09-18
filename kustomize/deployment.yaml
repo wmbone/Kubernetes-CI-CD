@@ -20,8 +20,8 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: podinfo
-      spec:
-        containers:
+    spec:
+      containers:
         - name: podinfod
           image: wmbone/tools-stash:latest
           imagePullPolicy: IfNotPresent   

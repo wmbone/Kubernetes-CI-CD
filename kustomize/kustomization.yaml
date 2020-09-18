@@ -1,8 +1,11 @@
 # From https://github.com/stefanprodan/podinfo
+namespace: 
+  devops
+namePrefix: dev-
+nameSuffix: "-001"
 resources:
-    - hpa.yaml
-    - deployment.yaml
-    - service.yaml
-  
-  commonLabels:
-    app: tools-stash
+  - deployment.yaml
+commonLabels:
+  app: tools-stash
+commonAnnotations:
+  app: tools-stash
