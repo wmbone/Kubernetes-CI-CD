@@ -1,7 +1,7 @@
 # From https://github.com/stefanprodan/podinfo
 namespace: devops
-namePrefix: dev-
-nameSuffix: "-001"
+# namePrefix: dev-
+# nameSuffix: "-001"
 resources:
   - deployment.yaml
 commonLabels:

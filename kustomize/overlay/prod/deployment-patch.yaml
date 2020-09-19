@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: Prod-Tools
+spec:
+  template:
+    spec:
+      containers:
+      - name: Prod-tools
+        env:
+        - name: ENVIRONMENT
+          value: prod
